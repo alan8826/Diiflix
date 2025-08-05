@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diiflix</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-wrapper">
+      <img src="images/logo.png" alt="Logo Movie Familly" class="logo-img">
+      <h1 class="logo-text">DIIFLIX</h1>
+    </div>
+    <nav>
+      <ul>
+        <li>All</li>
+        <li>Movie</li>
+        <li>Profile</li>
+        <li>Trending</li>
+        <li><button class="login-btn">Log-in</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="zombie-section">
+    <div class="text">
+      <h2>Tentang film</h2>
+      <h1>Tututan Janji</h1>
+      <p>Tututan Janji adalah sebuah film horor yang menceritakan tentang seorang gadis perempuan yang terikat janji dengan. film yang di produksi oleh tim dkv family smk negeri 1 ketapang</p>
+      <div class="btn-group">
+        <button class="btn-red">Source: Wikipedia</button>
+        <button class="btn-outline">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="category-bar">
+    <button>Adventure</button>
+    <button>Romantic</button>
+    <button>Fantasy</button>
+    <button>Action</button>
+    <button class="active">Horror</button>
+    <button>Comedy</button>
+  </div>
+
+  <section class="recommended">
+    <h2>Recommended | Horror Movie</h2>
+    <div class="scroll-container">
+      <button class="scroll-btn left" onclick="scrollLeft()">❮</button>
+      <div class="movie-list" id="movieList">
+        <img src="images/BANG DIIY.jpg" alt="BANG DIIY">
+        <img src="images/Lututan janji.jpg" alt="Lututan Janji">
+        <img src="images/THE INTROVET.jpg" alt="THE INTROVET">
+        <img src="images/DARK.jpg" alt="DARK">
+        <img src="images/Tentang seseorang.jpg" alt="Tentang seseorang">
+      </div>
+      <button class="scroll-btn right" onclick="scrollRight()">❯</button>
+    </div>
+  </section>
+
+  <section class="movie-highlight">
+    <div class="desc">
+      <h3>Horror Movie</h3>
+      <h1>Tuntutan Janji</h1>
+      <p>Tahun Rilis: 2026 | IMDb: 7.3</p>
+      <p class="short">
+        Seorang pelajar SMK bernama ayen kehilangan keluarganya. Ia harus bertahan dari janji yang telah ia buat sendiri akan kah ayen bisa menyelesaikan semua yang telah ia buat tonton selengkapnya di DIIFLIX PADA 23 juni 2026.
+      </p>
+      <button class="btn-outline">Read More</button>
+    </div>
+    <div class="trending">
+      <h4>Top Trending</h4>
+      <img src="images/sweet-home.jpg" alt="Sweet Home" class="top-img">
+      <button class="btn-red">Watch Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created by Tim DKV Familly_ | Design by Askar Akmil</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
